@@ -6,7 +6,7 @@ find_package(catkin REQUIRED COMPONENTS
 )
 
 find_package(catkin REQUIRED message_generation std_msgs geometry_msgs)
-find_package(Eigen REQUIRED)
+find_package(Eigen3 REQUIRED)
 
 add_message_files(
   FILES
